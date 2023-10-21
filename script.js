@@ -2,6 +2,9 @@
 
 const items = document.querySelectorAll('.img-item');
 
+// console.log(items);
+// console.log(items.length);
+
 // for文
 for(let i = 0; i < items.length; i++){
 

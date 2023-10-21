@@ -16,19 +16,11 @@ h1 {
   opacity: 0;
   filter: blur(10px);
   width: 100%;
-  object-fit: cover;
-  aspect-ratio: 4/3;
-  overflow: hidden;
 }
 
 .img-item img {
   width: 100%;
   height: auto;
-  transition: transform .5s;
-}
-
-.img-item:hover img {
-  transform: scale(1.5);
 }
 
 .img-item p {
